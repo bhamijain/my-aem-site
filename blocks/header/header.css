@@ -270,3 +270,16 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+/* custom nav styles */
+header nav .nav-sections,
+header nav .nav-sections a:any-link {
+  color: red;
+}
+
+header nav .nav-sections img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin-bottom: 8px;
+}
